@@ -1,8 +1,6 @@
 import sys
-import random
 import time
 import datetime
-import json
 
 import Log
 import Database

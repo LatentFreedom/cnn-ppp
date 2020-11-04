@@ -2,7 +2,6 @@ __pycache__
 .DS_Store
 *.pyc
 logs
-geckodriver.log
 ppp
 tmp_data.txt
 .env
