@@ -1,7 +1,8 @@
-import mysql.connector
-
+# System
 import os
 from os.path import join, dirname
+# Installed
+import mysql.connector
 from dotenv import load_dotenv
 
 dotenv_path = join(dirname(__file__), '.env')
@@ -17,6 +18,7 @@ class Database:
 		user=os.environ.get("DB_USER"),
 		password=os.environ.get("DB_PASS"),
 		database=os.environ.get("DB_NAME"),
+        allow_local_infile=1,
 		autocommit=True)
 
 	def closeConnection(self):

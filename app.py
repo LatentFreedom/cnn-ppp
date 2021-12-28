@@ -1,12 +1,13 @@
+# System
 import sys
 import time
 import datetime
-
-import Log
-import Database
-
+# Installed
 import requests
 from bs4 import BeautifulSoup
+# Local
+import Log
+import Database
 
 class Loan:
 

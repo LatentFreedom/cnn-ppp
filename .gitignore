@@ -1,7 +1,7 @@
 __pycache__
+logs
+pppenv
 .DS_Store
 *.pyc
-logs
-ppp
 tmp_data.txt
 .env
